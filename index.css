@@ -1,8 +1,14 @@
 .container-fluid {
   background-color: #61657a;
+  color: #eaebec;
 }
 
 .logonav {
   background-color: #333646;
+}
+
+.hero-fluid {
+  background-color: #333646;
+  color: #eaebec;
 }
 /*# sourceMappingURL=index.css.map */
