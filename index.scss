@@ -4,7 +4,7 @@ $Text-colour: #eaebec;
 $Dec-colour: #ffc25c;
 $Textbg-colour: #61657a;
 
-.container-fluid {
+@use .container-fluid {
   background-color: $Textbg-colour;
 }
 .logonav {
