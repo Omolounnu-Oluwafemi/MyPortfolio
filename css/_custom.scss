@@ -1,0 +1,17 @@
+$Pri-colour: #333646;
+$Sec-colour: #252734;
+$Text-colour: #eaebec;
+$Dec-colour: #ffc25c;
+$Textbg-colour: #61657a;
+
+@mixin Aboutme-head {
+  font: {
+    family: Rambla;
+    weight: bold;
+    size: 7px;
+    style: normal;
+  }
+  line-height: 170.77%;
+  letter-spacing: 0.06em;
+  color: $Text-colour;
+}

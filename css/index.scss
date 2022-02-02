@@ -1,10 +1,6 @@
-$Pri-colour: #333646;
-$Sec-colour: #252734;
-$Text-colour: #eaebec;
-$Dec-colour: #ffc25c;
-$Textbg-colour: #61657a;
+@use "../css/custom" as *;
 
-@use .container-fluid {
+.container-fluid {
   background-color: $Textbg-colour;
 }
 .logonav {
@@ -16,4 +12,5 @@ $Textbg-colour: #61657a;
 }
 .Aboutme {
   background-color: $Pri-colour;
+  @include Aboutme-head;
 }

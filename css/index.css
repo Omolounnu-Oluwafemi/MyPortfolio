@@ -1,0 +1,24 @@
+.container-fluid {
+  background-color: #61657a;
+}
+
+.logonav {
+  background-color: #333646;
+}
+
+.hero-fluid {
+  background-color: #333646;
+  color: #eaebec;
+}
+
+.Aboutme {
+  background-color: #333646;
+  font-family: Rambla;
+  font-weight: bold;
+  font-size: 7px;
+  font-style: normal;
+  line-height: 170.77%;
+  letter-spacing: 0.06em;
+  color: #eaebec;
+}
+/*# sourceMappingURL=index.css.map */
