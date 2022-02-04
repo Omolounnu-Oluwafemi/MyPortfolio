@@ -9,45 +9,165 @@ $Textbg-colour: #61657a;
   border-style: solid;
   border-radius: 70px;
 }
-@mixin Aboutme-head {
+@mixin Sectionheader_typo {
   font: {
     family: Arial;
     weight: bold;
     size: 7px;
     style: normal;
   }
+}
+@mixin Aboutmehead {
   line-height: 170.77%;
   letter-spacing: 0.06em;
   color: $Text-colour;
 }
-@mixin Aboutme-circle {
+@mixin Aboutmecircle {
   position: absolute;
   width: 250px;
   height: 250px;
   margin-left: 205px;
   margin-top: 1390px;
 }
-@mixin Aboutme-cont {
-  position: absolute;
-  width: 892.99px;
-  height: 800px;
-  margin-top: 342.01px;
-  margin-top: 1127px;
-}
-@mixin Aboutme-typo {
+@mixin Aboutmetypo {
   font: {
     family: Arial;
+    style: normal;
+    weight: normal;
+    size: 20px;
+  }
+  width: 100%;
+  // height: 708.77px;
+  // line-height: 49px;
+  align-items: center;
+  text-align: justify;
+  letter-spacing: -0.01em;
+  color: $Text-colour;
+}
+@mixin Devtools_head {
+  position: absolute;
+  width: 752px;
+  height: 121px;
+  left: 315.12px;
+  top: 2294px;
+  line-height: 85px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.06em;
+  color: rgba(234, 235, 236, 0.9);
+  border: 1px solid #000000;
+}
+@mixin Recentworks_head {
+  position: absolute;
+  width: 315px;
+  height: 64px;
+  left: 562px;
+  top: 3548px;
+  line-height: 64px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.06em;
+  color: #eaebec;
+}
+@mixin Recenetworks_subhead {
+  font: {
+    family: Roboto Mono;
+    style: normal;
+    weight: bold;
+    size: 30px;
+  }
+  position: absolute;
+  left: 16.53%;
+  right: 55.75%;
+  top: 29.47%;
+  bottom: 70.05%;
+  line-height: 38px;
+  display: flex;
+  align-items: center;
+  letter-spacing: 0.06em;
+  color: #000000;
+}
+@mixin Recenetworks_typos {
+  font: {
+    family: Roboto Mono;
     style: normal;
     weight: normal;
     size: 30px;
   }
   position: absolute;
-  width: 711.97px;
-  height: 708.77px;
-  margin-top: 1173px;
-  line-height: 49px;
+  left: 16.53%;
+  right: 55.75%;
+  top: 29.47%;
+  bottom: 70.05%;
+  line-height: 38px;
+  display: flex;
   align-items: center;
-  text-align: justify;
-  letter-spacing: -0.01em;
+  letter-spacing: 0.06em;
+  color: #000000;
+}
+@mixin Recentworks_pics {
+  position: absolute;
+  width: 600px;
+  height: 378px;
+  left: 206px;
+  top: 4276px;
+  border-radius: 50px;
+}
+@mixin InnKeeper {
+  font: {
+    family: Roboto Mono;
+    style: normal;
+    weight: normal;
+    size: 35px;
+  }
+  position: absolute;
+  width: 287.66px;
+  height: 97.44px;
+  left: 178px;
+  top: 5424.08px;
+  line-height: 60px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.06em;
+  color: #ffc25c;
+}
+@mixin Haven {
+  font: {
+    family: Roboto Mono;
+    style: normal;
+    weight: normal;
+    size: 35px;
+  }
+  position: absolute;
+  width: 287.66px;
+  height: 97.44px;
+  left: 178px;
+  top: 5424.08px;
+  line-height: 60px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.06em;
+  color: $Text-colour;
+}
+@mixin Experience_typo {
+  position: absolute;
+  width: 702.7px;
+  height: 890.08px;
+  left: 563.18px;
+  top: 5712.81px;
+  font: {
+    family: Roboto Mono;
+    style: normal;
+    weight: bold;
+    size: 30px;
+  }
+  line-height: 45px;
+  display: flex;
+  align-items: center;
+  letter-spacing: 0.06em;
   color: $Text-colour;
 }

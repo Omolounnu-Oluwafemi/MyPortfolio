@@ -14,11 +14,15 @@
 .Aboutme {
   background-color: #333646;
   font-family: Arial;
-  font-weight: bold;
-  font-size: 7px;
   font-style: normal;
-  line-height: 170.77%;
-  letter-spacing: 0.06em;
+  font-weight: normal;
+  font-size: 20px;
+  width: 100%;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-align: justify;
+  letter-spacing: -0.01em;
   color: #eaebec;
 }
 /*# sourceMappingURL=index.css.map */

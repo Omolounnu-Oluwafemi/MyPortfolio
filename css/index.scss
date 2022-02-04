@@ -1,4 +1,4 @@
-@use "/css/custom" as *;
+@import "custom";
 
 .container-fluid {
   background-color: $Textbg-colour;
@@ -11,6 +11,6 @@
   color: $Text-colour;
 }
 .Aboutme {
-  // background-color: $Pri-colour;
-  @include Aboutme-typo;
+  background-color: $Pri-colour;
+  @include Aboutmetypo;
 }
