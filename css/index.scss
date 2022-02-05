@@ -20,3 +20,17 @@
 .toolslogos * {
   width: 100px;
 }
+.Recentworks {
+  background-color: $Sec-colour;
+}
+.Recentworkshead {
+  @include Sectionheader_typo;
+}
+.paypal {
+  background-color: #e5e5e5;
+  @include Recenetworks_typos;
+}
+.Hurdle {
+  background-color: #e5e5e5;
+  @include Recenetworks_typos;
+}

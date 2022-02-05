@@ -33,4 +33,35 @@
 .toolslogos * {
   width: 100px;
 }
+
+.Recentworks {
+  background-color: #252734;
+}
+
+.Recentworkshead {
+  font-family: Arial;
+  font-weight: bold;
+  font-size: 7px;
+  font-style: normal;
+}
+
+.paypal {
+  background-color: #e5e5e5;
+  font-family: Roboto Mono;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 10px;
+  letter-spacing: 0.06em;
+  color: #000000;
+}
+
+.Hurdle {
+  background-color: #e5e5e5;
+  font-family: Roboto Mono;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 10px;
+  letter-spacing: 0.06em;
+  color: #000000;
+}
 /*# sourceMappingURL=index.css.map */
