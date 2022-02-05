@@ -14,3 +14,9 @@
   background-color: $Pri-colour;
   @include Aboutmetypo;
 }
+.Devtools {
+  background-color: $Pri-colour;
+}
+.toolslogos * {
+  width: 100px;
+}
