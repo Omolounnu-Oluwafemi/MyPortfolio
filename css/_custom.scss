@@ -16,6 +16,7 @@ $Textbg-colour: #61657a;
     size: 7px;
     style: normal;
   }
+  text-align: center;
 }
 @mixin Aboutmehead {
   line-height: 170.77%;
@@ -59,17 +60,14 @@ $Textbg-colour: #61657a;
   border: 1px solid #000000;
 }
 @mixin Recentworks_head {
-  position: absolute;
   width: 315px;
   height: 64px;
   left: 562px;
   top: 3548px;
   line-height: 64px;
-  display: flex;
-  align-items: center;
-  text-align: center;
   letter-spacing: 0.06em;
   color: #eaebec;
+  justify-content: center;
 }
 @mixin Recenetworks_subhead {
   font: {
@@ -100,7 +98,6 @@ $Textbg-colour: #61657a;
   color: #000000;
 }
 @mixin Recentworks_pics {
-  position: absolute;
   width: 600px;
   height: 378px;
   left: 206px;
