@@ -18,9 +18,7 @@
   font-weight: normal;
   font-size: 20px;
   width: 100%;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  align-items: center;
   text-align: justify;
   letter-spacing: -0.01em;
   color: #eaebec;
@@ -43,9 +41,11 @@
   font-weight: bold;
   font-size: 7px;
   font-style: normal;
+  text-align: center;
 }
 
 .paypal {
+  display: flex;
   background-color: #e5e5e5;
   font-family: Roboto Mono;
   font-style: normal;
@@ -56,6 +56,7 @@
 }
 
 .Hurdle {
+  display: flex;
   background-color: #e5e5e5;
   font-family: Roboto Mono;
   font-style: normal;
@@ -63,5 +64,13 @@
   font-size: 10px;
   letter-spacing: 0.06em;
   color: #000000;
+}
+
+.Workspicture {
+  width: 600px;
+  height: 378px;
+  left: 206px;
+  top: 4276px;
+  border-radius: 50px;
 }
 /*# sourceMappingURL=index.css.map */

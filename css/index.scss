@@ -27,10 +27,15 @@
   @include Sectionheader_typo;
 }
 .paypal {
+  display: flex;
   background-color: #e5e5e5;
   @include Recenetworks_typos;
 }
 .Hurdle {
+  display: flex;
   background-color: #e5e5e5;
   @include Recenetworks_typos;
+}
+.Workspicture {
+  @include Recentworks_pics;
 }
