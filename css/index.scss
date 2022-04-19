@@ -39,3 +39,46 @@
 .Workspicture {
   @include Recentworks_pics;
 }
+.mydev {
+  @include Sectionheader_typo;
+  color: #e5e5e5;
+}
+.experiencehead {
+  color: #e5e5e5;
+}
+.Experiencebut * {
+  background-color: $Textbg-colour;
+  color: #e5e5e5;
+  display: flex;
+}
+.inkeeperExp {
+  color: #e5e5e5;
+}
+.AllExperiences {
+  display: flex;
+}
+.Experiences {
+  background-color: $Pri-colour;
+}
+.havenExp {
+  color: #e5e5e5;
+  display: none;
+}
+.contactcard {
+  @include contactcard;
+}
+.contactme {
+  @include contactme;
+}
+#contactme {
+  @include Sectionheader_typo;
+}
+.contactcard-title {
+  @include card_title;
+}
+.contactalltext {
+  @include contactalltext;
+}
+.contactimg {
+  @include contactimg;
+}

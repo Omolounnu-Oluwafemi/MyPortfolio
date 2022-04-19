@@ -3,6 +3,7 @@ $Sec-colour: #252734;
 $Text-colour: #eaebec;
 $Dec-colour: #ffc25c;
 $Textbg-colour: #61657a;
+$BgforContact: #c4c4c4;
 
 @mixin Border {
   border-color: $Dec-colour;
@@ -13,7 +14,7 @@ $Textbg-colour: #61657a;
   font: {
     family: Arial;
     weight: bold;
-    size: 7px;
+    size: 20px;
     style: normal;
   }
   text-align: center;
@@ -159,4 +160,37 @@ $Textbg-colour: #61657a;
   align-items: center;
   letter-spacing: 0.06em;
   color: $Text-colour;
+}
+@mixin contactme {
+  background-color: $Sec-colour;
+}
+@mixin contactcard {
+  width: 500px;
+  height: 400px;
+  margin: auto;
+
+  font: {
+    family: Roboto Mono;
+    style: normal;
+    weight: bold;
+    size: 15px;
+  }
+  background-color: $BgforContact;
+  color: black;
+}
+@mixin card_title {
+  font-size: 20px;
+  font-weight: 700;
+  text-align: center;
+}
+@mixin contactalltext {
+  text-align: center;
+  font-weight: 100;
+}
+@mixin contactimg {
+  width: 50px;
+  height: 50px;
+  left: 206px;
+  top: 4276px;
+  border-radius: 50px;
 }
